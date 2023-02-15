@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Figma mockup Prototype activity</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="./index.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- headings section -->
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-one">
+			  <a class="navbar-brand" href="#hero-banner"><img src="./images/logo.png" class="logo"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link font-one mx-3" href="#hero-banner">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link font-one mx-3" href="#gallery">Gellery</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link font-one mx-3" href="#contact">Contact</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+		</header>
+		<!-- end of header -->
+		<!-- start of main -->
+		<main>
+			<!-- Hero banner page -->
+			<div class="container-fluid vh-100" id="hero-banner">
+				<div class="row h-100 align-content-center">
+					<div class="col-10 offset-0 col-md-7 offset-md-1 col-xl-4 offset-xl-2 banner-text">
+						<h1 class="header-banner">Studio Photos and Designs</h1>
+						<p class="banner-subheading mb-5">Simple elegant photos you can use for your website</p>
+						<a href="#gallery" class="banner-btn text-decoration-none">Get Started</a>
+					</div>
+				</div>
+			</div>
+			<div class="container py-5 px-2 px-md-5 text-center" id="gallery">
+				<div class="banner-text">
+					<h2 class="mt-5 pt-0 pt-lg-5 mb-3 text-uppercase gallery-heading">Gallery</h2>
+					<p class="mb-5 gallery-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+				<div class="row justify-content-between">
+					<div class="col-12 col-md-4 my-3">
+						<img src="./images/img1.png" class="img-fluid">
+					</div>
+					<div class="col-12 col-md-4 my-3">
+						<img src="./images/img2.png" class="img-fluid">
+					</div>
+					<div class="col-12 col-md-4 my-3">
+						<img src="./images/img3.png" class="img-fluid">
+					</div>
+					<div class="col-12 col-md-4 my-3">
+						<img src="./images/img4.png" class="img-fluid">
+					</div>
+					<div class="col-12 col-md-4 my-3">
+						<img src="./images/img5.png" class="img-fluid">
+					</div>
+					<div class="col-12 col-md-4 my-3">
+						<img src="./images/img6.png" class="img-fluid">
+					</div>
+					<div class="col-12 col-md-4 my-3">
+						<img src="./images/img7.png" class="img-fluid">
+					</div>
+					<div class="col-12 col-md-4 my-3">
+						<img src="./images/img8.png" class="img-fluid">
+					</div>
+					<div class="col-12 col-md-4 my-3">
+						<img src="./images/img9.png" class="img-fluid">
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid" id="contact">
+				<div class="row">
+					<div class="d-none d-md-block col-md-5" id="contact-image-bg"> </div>
+					<div class="col-12 col-md-7 px-3 px-md-5 py-5 contact-bg">
+						<h2 class="py-3 contact-heading text-uppercase">Contact Us</h2>
+						<p class="contact-sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+						<form action="mailto:obligado86@yahoo.com" class="form-group">
+							<label for="name" class="contact-label mt-2">Name</label>
+							<input type="text" name="name" id="name" required autocomplete placeholder="John Doe" class="w-100 contact-input">
+							<label for="email" class="contact-label mt-2">Email Address</label>
+							<input type="email" name="email" id="email" required autocomplete placeholder="john.doe@mail.com" class="w-100 contact-input">
+							<label for="message" class="contact-label mt-2">Message</label>
+							<textarea class="form-control w-100 contact-input" rows="5" ></textarea>
+							<button type="submit" class="mt-4 float-right">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="text-center py-3 mt-4">
+			2023 | All rights reserved.
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	</body>
+</html>
